@@ -5,24 +5,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Login
-        <br />        
-        <br />
-        <br />
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-      
-      <br />
-        <br />
-        <br />
-      <div>
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required />
-        
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required />
-            
-        <button type="submit" onClick={()=>{ alert('Login Successfully Done !'); }}>Login</button>
-      </div>
     </div>
   );
 }
